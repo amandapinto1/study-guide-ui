@@ -4,7 +4,7 @@ const { Content, Footer } = Layout;
 
 const GlobalLayout = ({ children }) => {
   return (
-    <Layout style={{ height: "100vh" }}>
+    <Layout style={{ minHeight: "100vh" }}>
       <Content
         style={{
           padding: "0 48px",

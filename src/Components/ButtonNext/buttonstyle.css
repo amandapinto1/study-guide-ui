@@ -40,9 +40,9 @@
     margin-right: 45px;
 }
 
-  span {
+  /* span {
     transform: skewX(15deg) 
-  }
+  } */
 
   span:nth-child(2) {
     width: 20px;
