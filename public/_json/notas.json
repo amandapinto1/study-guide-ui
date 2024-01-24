@@ -1,0 +1,147 @@
+[
+  {
+    "subjects": [
+      {
+        "id": 1,
+        "subject": "Geografia",
+        "topic": "Meio Ambiente e Sustentabilidade"
+      },
+      {
+        "id": 2,
+        "subject": "Geografia",
+        "topic": "Urbanização e Problemas Urbanos"
+      },
+      {
+        "id": 3,
+        "subject": "Matemática",
+        "topic": "Análise de Dados e Estatística"
+      },
+      {
+        "id": 4,
+        "subject": "Matemática",
+        "topic": "Matemática Financeira"
+      },
+      {
+        "id": 5,
+        "subject": "Matemática",
+        "topic": "Trigonometria"
+      },
+      {
+        "id": 6,
+        "subject": "Português",
+        "topic": "Gêneros Textuais e Tipologias"
+      },
+      {
+        "id": 7,
+        "subject": "Português",
+        "topic": "Literatura Brasileira e Portuguesa"
+      }
+    ]
+  },
+  {
+    "study-guide": {
+      "hoursPerDay":"4",
+      "weeDays":["mon","wed","fri","sat","sun"],
+      "mon": [
+        {
+          "initialTime": "2pm",
+          "finalTime": "3:30pm",
+          "subject": "Português",
+          "topic": "Literatura Brasileira e Portuguesa"
+        },
+        {
+            "initialTime": "3:50pm",
+            "finalTime": "5:40pm",
+            "subject": "Matemática",
+            "topic": "Análise de Dados e Estatística"
+        },
+        {
+            "initialTime": "5:50pm",
+            "finalTime": "6:30pm",
+            "subject": "Resolução de Questões",
+            "topic": ""
+        }
+      ],
+      "wed": [
+        {
+          "initialTime": "02:00pm",
+          "finalTime": "03:30pm",
+          "subject": "Geografia",
+          "topic": "Urbanização e Problemas Urbanos"
+        },
+        {
+            "initialTime": "03:50pm",
+            "finalTime": "05:40pm",
+            "subject": "Matemática",
+            "topic": "Trigonometria"
+        },
+        {
+            "initialTime": "05:50pm",
+            "finalTime": "06:30pm",
+            "subject": "Resolução de Questões",
+            "topic": ""
+        }
+      ],
+      "fri": [
+        {
+          "initialTime": "02:00pm",
+          "finalTime": "03:30pm",
+          "subject": "Geografia",
+          "topic": "Meio Ambiente e Sustentabilidade"
+        },
+        {
+            "initialTime": "03:50pm",
+            "finalTime": "05:40pm",
+            "subject": "Matemática",
+            "topic": "Matemática Financeira"
+        },
+        {
+            "initialTime": "05:50pm",
+            "finalTime": "06:30pm",
+            "subject": "Português",
+            "topic": "Gêneros Textuais e Tipologias"
+        }
+      ],
+      "sat": [
+        {
+          "initialTime": "09:00am",
+          "finalTime": "10:30am",
+          "subject": "Matemática",
+          "topic": "Trigonometria"
+        },
+        {
+            "initialTime": "10:50pm",
+            "finalTime": "11:40pm",
+            "subject": "Português",
+            "topic": "Literatura Brasileira e Portuguesa"
+        },
+        {
+            "initialTime": "02:00pm",
+            "finalTime": "03:00pm",
+            "subject": "Resolução de Questões",
+            "topic": ""
+        }
+      ],
+      "sun": [
+        {
+          "initialTime": "09:00am",
+          "finalTime": "10:30am",
+          "subject": "Matemática",
+          "topic": "Revisão"
+        },
+        {
+            "initialTime": "10:50pm",
+            "finalTime": "11:40pm",
+            "subject": "Português",
+            "topic": "Revisão"
+        },
+        {
+            "initialTime": "02:00pm",
+            "finalTime": "03:00pm",
+            "subject": "Geografia",
+            "topic": "Revisão"
+        }
+      ]
+    }
+  }
+]
