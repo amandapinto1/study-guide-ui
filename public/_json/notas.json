@@ -36,25 +36,25 @@
       "topic": "Literatura Brasileira e Portuguesa"
     }
   ],
-  "study-guide": {
+  "studyGuide": {
     "hoursPerDay": "4",
-    "weeDays": ["mon", "wed", "fri", "sat", "sun"],
+    "weekDays": ["mon", "wed", "fri", "sat", "sun"],
     "mon": [
       {
-        "initialTime": "2pm",
-        "finalTime": "3:30pm",
+        "initialTime": "02:00pm",
+        "finalTime": "03:30pm",
         "subject": "Português",
         "topic": "Literatura Brasileira e Portuguesa"
       },
       {
-        "initialTime": "3:50pm",
-        "finalTime": "5:40pm",
+        "initialTime": "03:50pm",
+        "finalTime": "05:40pm",
         "subject": "Matemática",
         "topic": "Análise de Dados e Estatística"
       },
       {
-        "initialTime": "5:50pm",
-        "finalTime": "6:30pm",
+        "initialTime": "05:50pm",
+        "finalTime": "06:30pm",
         "subject": "Resolução de Questões",
         "topic": ""
       }
@@ -102,19 +102,19 @@
     "sat": [
       {
         "initialTime": "09:00am",
-        "finalTime": "10:30am",
+        "finalTime": "10:40am",
         "subject": "Matemática",
         "topic": "Trigonometria"
       },
       {
-        "initialTime": "10:50pm",
-        "finalTime": "11:40pm",
+        "initialTime": "11:00pm",
+        "finalTime": "12:00pm",
         "subject": "Português",
         "topic": "Literatura Brasileira e Portuguesa"
       },
       {
         "initialTime": "02:00pm",
-        "finalTime": "03:00pm",
+        "finalTime": "03:20pm",
         "subject": "Resolução de Questões",
         "topic": ""
       }
@@ -122,19 +122,19 @@
     "sun": [
       {
         "initialTime": "09:00am",
-        "finalTime": "10:30am",
+        "finalTime": "10:40am",
         "subject": "Matemática",
         "topic": "Revisão"
       },
       {
-        "initialTime": "10:50pm",
-        "finalTime": "11:40pm",
+        "initialTime": "11:00pm",
+        "finalTime": "12:00pm",
         "subject": "Português",
         "topic": "Revisão"
       },
       {
         "initialTime": "02:00pm",
-        "finalTime": "03:00pm",
+        "finalTime": "03:20pm",
         "subject": "Geografia",
         "topic": "Revisão"
       }

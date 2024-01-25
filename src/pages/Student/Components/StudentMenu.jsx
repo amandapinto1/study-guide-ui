@@ -1,9 +1,9 @@
 import { Badge, Collapse, Image, List, Skeleton } from "antd";
 import React from "react";
 
-const StudentMenu = ({ student, studentInfo }) => {
-  const DisciplineList = ({ item }) => {
-    return <List.Item>{item}</List.Item>;
+const StudentMenu = ({ student, studentInfo, setDisciplina }) => {
+  const DisciplineList = ({ item, onClick }) => {
+    return <List.Item onClick={onClick}>{item}</List.Item>;
   };
 
   return (
@@ -25,7 +25,7 @@ const StudentMenu = ({ student, studentInfo }) => {
               src={`data:image/jpeg;base64,${student.avatar}`}
             />}
           </Badge.Ribbon>
-          <Collapse
+          {/* <Collapse
             style={{ marginTop: "25px" }}
             items={[
               {
@@ -40,13 +40,13 @@ const StudentMenu = ({ student, studentInfo }) => {
                 ),
               },
             ]}
-          />
+          /> */}
           <Collapse
             style={{ marginTop: "25px" }}
             items={[
               {
                 key: "1",
-                label: "Desempenho",
+                label: "Disciplinas",
                 children: (
                   <List>
                     {Array.from(
@@ -55,6 +55,7 @@ const StudentMenu = ({ student, studentInfo }) => {
                       <DisciplineList
                         key={uniqueDiscipline}
                         item={uniqueDiscipline}
+                        onClick={() => setDisciplina(uniqueDiscipline)}
                       />
                     ))}
                   </List>

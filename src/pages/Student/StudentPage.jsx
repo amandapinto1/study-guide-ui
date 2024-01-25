@@ -6,6 +6,7 @@ import {GetGrades} from '../../services/servicos'
 
 const StudentPage = ({ student }) => {
   const [studentInfo, setStudentInfo] = useState();
+  const [disciplina, setDisciplina] = useState();
 
   useEffect(() => {
     GetGrades().then((result) => setStudentInfo(result))
@@ -15,10 +16,10 @@ const StudentPage = ({ student }) => {
     <Layout>
       <Row style={{justifyContent:'space-around'}}>
           <Col span={6} style={{justifyContent:'center'}}>
-            <StudentMenu student={student} studentInfo={studentInfo} />
+            <StudentMenu student={student} studentInfo={studentInfo} disciplina={disciplina} setDisciplina={setDisciplina}/>
           </Col>
           <Col span={16}>
-            <StudentInfo student={student} studentInfo={studentInfo}  />
+            <StudentInfo student={student} studentInfo={studentInfo} disciplina={disciplina} setDisciplina={setDisciplina}/>
           </Col>
       </Row>
     </Layout>
